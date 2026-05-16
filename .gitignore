@@ -1,47 +1,21 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Dependency directories
-node_modules/
-
-# Build folders
-dist/
-build/
+# Vercel
 .vercel/
 
-# Environment variables
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# macOS
+# OS files
 .DS_Store
-
-# Windows
 Thumbs.db
 
-# IDEs
+# Editor files
 .vscode/
 .idea/
 
-# Cache
-.cache/
-.temp/
-tmp/
+# Logs
+*.log
 
-# Misc
+# Environment files
+.env
+.env.local
+
+# Backups
 *.bak
-*.swp
+*.tmp
